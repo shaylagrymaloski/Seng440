@@ -12,7 +12,7 @@ To compile:
 To upload to arm machine:
 `lftp -c "open user1:q6coHjd7P@arm; mirror -P 10 -R -x '.git' . grymaloski;"`
 
-Log onto the arm machine:
+Log onto the arm machine (username: user1, password: q6coHjd7P) :
 `telnet arm`
 
 Cd into the directory made:
